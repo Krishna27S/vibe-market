@@ -20,20 +20,22 @@ const Login =() =>{
                 }),
             });
 
-            if(!response.ok){
-                const errorData = await response.json();
-                throw new Error(errorData.message || 'An error Occured');
-            }
             const data = await response.json();
-            const { token , user } = data;
+
+            if(!response.ok){
+                
+                throw new Error(data.message || 'An error Occured');
+            }
+            
+            
 
 
             // we are storing the token in localstorage to avoid relogin while refreshing
-            localStorage.setItem('token',token);
+            localStorage.setItem('token',data.token);
 
             //Redirect based on the user type (admin or user)
 
-            if(user.isAdmin){
+            if(loginType === 'admin'){
                 console.log('Redirect to admin dashboard');
             }
             else{
