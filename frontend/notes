@@ -1,0 +1,56 @@
+min-h-screen: Sets the minimum height of the container to the height of the screen, ensuring the content is vertically centered.
+flex: Applies Flexbox layout to the container, allowing for flexible and responsive design.
+items-center: Vertically centers the flex items (children) within the container.
+justify-center: Horizontally centers the flex items.
+bg-gray-50: Sets a light gray background color.
+py-12: Applies vertical padding (top and bottom) of 3rem (48px).
+px-4: Applies horizontal padding (left and right) of 1rem (16px).
+sm:px-6: Increases the horizontal padding to 1.5rem (24px) on small screens and above.
+lg:px-8: Further increases the horizontal padding to 2rem (32px) on large screens and above.
+mt-6: Applies a top margin of 1.5rem (24px).
+text-center: Centers the text horizontally.
+text-3xl: Sets the font size to 1.875rem (30px).
+font-extrabold: Makes the font weight extra bold.
+text-gray-900: Sets the text color to a very dark gray (almost black).
+mt-8: Applies a top margin of 2rem (32px) to separate it from the title.
+space-y-6: Applies a vertical margin of 1.5rem (24px) between child elements.
+
+rounded-md: Applies a medium border-radius to the container, giving it slightly rounded corners.
+shadow-sm: Adds a small shadow for a subtle elevation effect.
+-space-y-px: Removes the default margin between input fields, making them visually appear connected.
+
+appearance-none: Removes the default styling of the input field for full customization.
+rounded-none: Removes any border-radius, making it sharp-edged.
+relative: Positions the input relative to its parent.
+block: Makes the input a block-level element, taking full width.
+w-full: Sets the width to 100% of the parent container.
+px-3: Adds horizontal padding of 0.75rem (12px).
+py-2: Adds vertical padding of 0.5rem (8px).
+border: Applies a border to the input.
+border-gray-300: Sets the border color to light gray.
+placeholder-gray-500: Sets the placeholder text color to a medium gray.
+text-gray-900: Sets the input text color to a very dark gray.
+rounded-t-md: Applies a medium border-radius to the top corners.
+focus:outline-none: Removes the default outline when the input is focused.
+focus:ring-indigo-500: Adds an indigo ring effect when focused.
+focus:border-indigo-500: Changes the border color to indigo when focused.
+focus:z-10: Sets a higher stacking context to keep the focused input above other elements.
+sm:text-sm: Sets the font size to small on small screens and 
+
+group: Enables hover and focus effects for child elements.
+relative: Sets the button’s positioning to relative.
+w-full: Sets the button width to 100% of the parent container.
+flex: Applies Flexbox layout to center the content.
+justify-center: Horizontally centers the button text.
+py-2: Adds vertical padding of 0.5rem (8px).
+px-4: Adds horizontal padding of 1rem (16px).
+border border-transparent: Applies a transparent border (useful for maintaining layout).
+text-sm: Sets the font size to small.
+font-medium: Applies a medium font weight.
+rounded-md: Applies a medium border-radius for rounded corners.
+text-white: Sets the text color to white.
+bg-blue-600: Sets the background color to a blue shade (600 level).
+hover:bg-blue-700: Changes the background color to a darker blue when hovered.
+focus:outline-none: Removes the default outline when focused.
+focus:ring-2: Adds a ring effect around the button when focused.
+focus:ring-offset-2: Adds space between the button and the ring effect.
